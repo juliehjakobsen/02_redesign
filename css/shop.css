@@ -1,20 +1,89 @@
+button {
+  color: white;
+  background-color: #804826;
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  border: none;
+  font-size: 1.3rem;
+}
+
 /* mobile first */
 
-#third_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #e6ceb2;
-}
+@media (max-width: 700px) {
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e6ceb2;
+  }
 
-.col_1,
-.col_2 {
-  margin: 1rem;
-}
+  .col_1,
+  .col_2,
+  .col_3 {
+    margin: 1rem;
+  }
 
-.col_2 .bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .col_2 .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 /* gøre den responsiv */
+
+@media (min-width: 700px) {
+  /* section 1 */
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  /* section 2 */
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+
+  #second_section .section_wrapper .col_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+  }
+
+  #second_section .section_wrapper .col_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+  }
+
+  #second_section .section_wrapper .col_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+  }
+
+  /* section 3 */
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: #e6ceb2;
+  }
+
+  #third_section .section_wrapper .col_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .col_1,
+  .col_2,
+  .col_3 {
+    margin: 0.5rem;
+  }
+}
