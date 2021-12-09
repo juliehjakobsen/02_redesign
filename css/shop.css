@@ -1,0 +1,38 @@
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  position: sticky;
+  padding: 1rem 1rem;
+  gap: 20px;
+  background-color: #d3ae8a;
+}
+
+li {
+  list-style: none;
+  gap: 20px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+body {
+  background-color: #ede8df;
+}
+
+.logo img {
+  height: 3rem;
+}
