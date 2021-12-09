@@ -62,3 +62,15 @@ li {
 .logo img {
   height: 3rem;
 }
+
+#footer .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d3ae8a;
+  color: white;
+  padding: 20px;
+}
+#footer .section_wrapper .col_2 {
+  grid-column: 2/3;
+  padding-left: 41px;
+}
