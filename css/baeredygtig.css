@@ -43,14 +43,6 @@ button {
     grid-column: 2/3;
     padding: 20px;
   }
-  /* #first_section .col_2 img {
-    width: 20%;
-    padding-left: 160px;
-  }
-  #first_section .section_wrapper .col_2 img {
-    width: 20%;
-    padding-left: 160px;
-  } */
 
   #second_section .section_wrapper {
     display: grid;
