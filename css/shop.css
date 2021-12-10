@@ -15,7 +15,9 @@ button {
   grid-column: 2/3;
 }
 
-img {
+#first_section img,
+#second_section img,
+#third_section img {
   border-radius: 15px;
 }
 
