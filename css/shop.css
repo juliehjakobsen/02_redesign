@@ -15,7 +15,9 @@ button {
   grid-column: 2/3;
 }
 
-img {
+#first_section img,
+#second_section img,
+#third_section img {
   border-radius: 15px;
 }
 
@@ -91,10 +93,6 @@ img {
     gap: 10px;
     background-color: #e6ceb2;
   }
-
-  /* #third_section .section_wrapper .col_2 {
-    display: grid;
-  } */
 
   .col_1,
   .col_2,
