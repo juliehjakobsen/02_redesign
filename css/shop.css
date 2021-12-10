@@ -30,7 +30,6 @@ img {
 
 .section_wrapper {
   display: grid;
-  gap: 5rem;
 }
 
 /* mobile first */
@@ -50,11 +49,11 @@ img {
     background-color: #e6ceb2;
   }
 
-  /* .col_1,
+  .col_1,
   .col_2,
   .col_3 {
     margin: 1rem;
-  } */
+  }
 
   .col_2 .bottom {
     display: flex;
@@ -102,11 +101,9 @@ img {
     background-color: #e6ceb2;
   }
 
-  #third_section .section_wrapper .col_2 {
+  /* #third_section .section_wrapper .col_2 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
+  } */
 
   .col_1,
   .col_2,
