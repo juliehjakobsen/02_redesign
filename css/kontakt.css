@@ -49,7 +49,39 @@ h1 {
   text-align: center;
 }
 
-.bottom button,
 .bottom button {
   margin: 0 auto;
+}
+
+/* web-version */
+
+@media (min-width: 700px) {
+  .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section_wrapper .col_2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .col_2 .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col_2 .bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.col_2,
+.middle {
+  gap: 3rem;
+}
+
+.col_2 img {
+  margin: 1rem;
 }
