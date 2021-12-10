@@ -92,15 +92,20 @@ button {
   font-size: 1.3rem;
 }
 
+/* klasse på vores header - får menuen til at wrappe under hinanden når der ikke er plads */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* burger menu */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .toggle-btn {
     background: transparent;
     border: none;
     display: block;
     min-width: 44px;
     min-height: 44px;
-    font-size: 1.1rem;
+    font-size: 2rem;
     cursor: pointer;
   }
 
@@ -119,5 +124,8 @@ button {
   nav ul {
     display: flex;
     flex-flow: column;
+  }
+  header nav ul {
+    gap: 10px;
   }
 }
