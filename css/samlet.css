@@ -91,6 +91,9 @@ button {
   border: none;
   font-size: 1.3rem;
 }
+.toggle-btn {
+  display: none;
+}
 
 /* klasse på vores header - får menuen til at wrappe under hinanden når der ikke er plads */
 .banner {

@@ -22,7 +22,7 @@
 }
 .button {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr;
   padding-bottom: 20px;
 }
 button {
@@ -43,14 +43,14 @@ button {
     grid-column: 2/3;
     padding: 20px;
   }
-  #first_section .col_2 img {
+  /* #first_section .col_2 img {
     width: 20%;
     padding-left: 160px;
   }
   #first_section .section_wrapper .col_2 img {
     width: 20%;
     padding-left: 160px;
-  }
+  } */
 
   #second_section .section_wrapper {
     display: grid;
