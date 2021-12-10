@@ -75,3 +75,14 @@ li {
   grid-column: 2/3;
   padding-left: 41px;
 }
+
+button {
+  color: white;
+  background-color: #804826;
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  border: none;
+  font-size: 1.3rem;
+}
