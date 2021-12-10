@@ -15,17 +15,21 @@ button {
   grid-column: 2/3;
 }
 
-#second_section .col_1,
+/* #second_section .col_1,
 #second_section .col_2,
 #second_section .col_3 {
   box-sizing: border-box;
   border: solid #804826 3px;
   border-radius: 15px;
-  padding: 1rem;
-}
+  padding: 10px;
+} */
 
 img {
   border-radius: 15px;
+}
+
+.section_wrapper {
+  display: grid;
 }
 
 /* mobile first */
@@ -97,11 +101,9 @@ img {
     background-color: #e6ceb2;
   }
 
-  #third_section .section_wrapper .col_2 {
+  /* #third_section .section_wrapper .col_2 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
+  } */
 
   .col_1,
   .col_2,
