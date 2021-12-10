@@ -15,17 +15,22 @@ button {
   grid-column: 2/3;
 }
 
-#second_section .col_1,
+/* #second_section .col_1,
 #second_section .col_2,
 #second_section .col_3 {
   box-sizing: border-box;
   border: solid #804826 3px;
   border-radius: 15px;
-  padding: 1rem;
-}
+  padding: 10px;
+} */
 
 img {
   border-radius: 15px;
+}
+
+.section_wrapper {
+  display: grid;
+  gap: 5rem;
 }
 
 /* mobile first */
@@ -45,11 +50,11 @@ img {
     background-color: #e6ceb2;
   }
 
-  .col_1,
+  /* .col_1,
   .col_2,
   .col_3 {
     margin: 1rem;
-  }
+  } */
 
   .col_2 .bottom {
     display: flex;
