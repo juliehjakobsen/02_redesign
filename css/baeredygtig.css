@@ -20,6 +20,10 @@
 #third_section .section_wrapper .col_2 .bottom {
   padding-top: 30px;
 }
+#first_section .section_wrapper .col_2 img {
+  width: 20%;
+  padding-left: 245px;
+}
 
 @media (min-width: 700px) {
   #first_section .section_wrapper {
@@ -42,5 +46,29 @@
   #first_section .section_wrapper .col_2 img {
     width: 20%;
     padding-left: 160px;
+  }
+
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  #second_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #third_section .col_2 {
+    grid-column: 2/3;
+    padding-left: 30px;
+  }
+  #third_section .col_1 {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
