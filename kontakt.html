@@ -4,11 +4,148 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="no-index" />
-    <title>Document</title>
+    <title>Custom Coffee</title>
+    <link rel="stylesheet" href="css/samlet.css" />
+    <link rel="stylesheet" href="css/kontakt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600;700&family=Quicksand:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="fotos/cc-logo-white.png" alt="logo"
+        /></a>
+      </div>
+      <button class="toggle-btn">☰</button>
+      <nav>
+        <ul class="nav">
+          <li><a href="baeredygtig.html">Bæredygtighed</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="first_section">
+        <div class="section_wrapper">
+          <div class="col_1">
+            <form>
+              <h1>Kontakt os</h1>
+              <div class="form_felt">
+                <label for="navn">Navn</label>
+                <input placeholder="fx. Lars Larsen" />
+              </div>
+
+              <div class="form_felt">
+                <label for="email">E-mail</label>
+                <input
+                  placeholder="fx. lars@gmail.com"
+                  id="email"
+                  name="email"
+                  type="email"
+                />
+              </div>
+
+              <div class="form_felt">
+                <label>
+                  Kommentar (valgfri)
+                  <textarea name="besked" rows="10"></textarea>
+                </label>
+              </div>
+
+              <button>Send</button>
+            </form>
+          </div>
+          <div class="col_2">
+            <div class="top">
+              <div class="element_1">
+                <h3>Custom Coffee ApS</h3>
+                <p>
+                  Fælledvej 17 <br />
+                  2200 København N <br />
+                  <br />
+                  CVR: 39293315 <br /><br />
+                  Tlf.: +45 53 54 78 17 <br />
+                  E-mail:
+                  <a href="mailto:kontakt@customcoffee.dk"
+                    >kontakt@costumcoffee.dk</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="element_1">
+                <img
+                  src="fotos/kontakt_billeder/kristian_farve.jpg"
+                  alt="Kristian i farve"
+                />
+                <h2>Kristian Folden</h2>
+                <p>
+                  Tlf.: +45 53 54 78 17 <br />
+                  E-mail:
+                  <a href="mailto:kf@costumcoffee.dk">kf@costumcoffee.dk</a>
+                </p>
+              </div>
+              <div class="element_2">
+                <img
+                  src="fotos/kontakt_billeder/nils_farve.jpg"
+                  alt="Nils i farve"
+                />
+                <h2>Nils Hansen</h2>
+                <p>
+                  Tlf.: +45 40 56 46 83 <br />
+                  E-mail:
+                  <a href="mailto:nh@costumcoffee.dk">nh@costumcoffee.dk</a>
+                </p>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="element_1">
+                <button>Leverandørservice</button>
+                <br />
+              </div>
+              <div class="element_2">
+                <button>Økologi godkendelse</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="section_wrapper">
+          <div class="col_1">
+            <p>
+              Kontakt os <br />
+              Custom Coffee ApS <br />
+              <br />
+              Fælledvej 17 <br />
+              2200 København N <br />
+              CVR: 39293315 <br />
+              <br />
+              Tlf.: 53 54 78 17 <br />
+              E-mail: kontakt@customcoffee.dk
+            </p>
+          </div>
+          <div class="col_2">
+            <p>Links <br /><br />Leverandørservice <br />Økologi godkendelse</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="java/index.js"></script>
   </body>
 </html>

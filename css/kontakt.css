@@ -1,0 +1,80 @@
+/* css til kontakt-formene */
+
+form {
+  padding-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: grid;
+  gap: 1rem;
+}
+
+.form_felt {
+  display: grid;
+}
+
+label,
+textarea,
+input,
+button {
+  display: block;
+}
+
+/* mobile first */
+
+#first_section .col_1 {
+  background: #e6ceb2;
+}
+
+.top .element_1 a,
+.middle .element_1 a,
+.middle .element_2 a {
+  color: black;
+}
+
+.middle .element_1 img,
+.middle .element_2 img {
+  border-radius: 500px 500px;
+}
+
+.bottom button {
+  width: 250px;
+  height: 50px;
+}
+
+.top,
+.middle .element_1,
+.middle .element_2,
+h1 {
+  text-align: center;
+}
+
+.bottom button {
+  margin: 0 auto;
+}
+
+/* web-version */
+
+@media (min-width: 700px) {
+  .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .col_2 .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .col_2 .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  .col_2 .middle {
+    gap: 3rem;
+  }
+
+  .col_2 img {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,89 @@
+/* INDEX CSS */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.index_fullscreen {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -2rem;
+}
+
+.index_fullscreen video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.index_fullscreen_knapper {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.index_knap_1 {
+  border: solid 2px white;
+  border-radius: 1.1rem;
+  padding: 5px;
+}
+
+.index_knap_2 {
+  border: solid 2px white;
+  border-radius: 1.1rem;
+  padding: 5px;
+}
+
+/* CSS 
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+*/
+
+/* Changes to consider 
+1. centrer logo i header
+2. 
+*/

@@ -1,17 +1,41 @@
+p {
+  line-height: 2rem;
+}
+
+#first_section {
+  background-color: blanchedalmond;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 button {
-  color: white;
-  background-color: #804826;
-  border-radius: 30px;
-  width: 100px;
-  height: 50px;
-  font-family: "Baloo Bhaijaan 2", cursive;
-  border: none;
-  font-size: 1.3rem;
+  grid-column: 2/3;
+}
+
+#first_section img,
+#second_section img,
+#third_section img {
+  border-radius: 15px;
+}
+
+.section_wrapper {
+  display: grid;
 }
 
 /* mobile first */
 
 @media (max-width: 700px) {
+  #second_section {
+    display: grid;
+  }
+
+  .bottom button {
+    margin: 0 auto;
+  }
+
   #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,66 +48,59 @@ button {
     margin: 1rem;
   }
 
-  .col_2 .bottom {
+  #third_section .col_2 .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 }
 
-/* gøre den responsiv */
+/* web-version */
 
 @media (min-width: 700px) {
   /* section 1 */
   #first_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   /* section 2 */
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
   }
 
   #second_section .section_wrapper .col_1 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   #second_section .section_wrapper .col_2 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   #second_section .section_wrapper .col_3 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   /* section 3 */
   #third_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: 1fr;
     gap: 10px;
     background-color: #e6ceb2;
-  }
-
-  #third_section .section_wrapper .col_2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
   .col_1,
   .col_2,
   .col_3 {
     margin: 0.5rem;
+  }
+
+  #third_section {
+    font-size: 1.5rem;
   }
 }
