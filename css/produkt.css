@@ -1,0 +1,19 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.bottom .right {
+  grid-column: 2/3;
+}
+
+@media (min-width: 700px) {
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #first_section .middel {
+    height: 40px;
+  }
+}
