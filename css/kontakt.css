@@ -23,7 +23,7 @@ button {
 /* mobile first */
 
 #first_section .col_1 {
-  background: white;
+  background: #e6ceb2;
 }
 
 .top .element_1 a,
@@ -61,26 +61,21 @@ h1 {
     grid-template-columns: 1fr 2fr;
   }
 
-  .section_wrapper .col_2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-
   .col_2 .middle {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .col_2 .bottom {
-    display: flex;
-    justify-content: space-around;
+  /* .col_2 .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  .col_2 .middle {
+    gap: 3rem;
   }
-}
 
-.col_2 .middle {
-  gap: 3rem;
-}
-
-.col_2 img {
-  margin: 1rem;
+  .col_2 img {
+    margin: 1rem;
+  }
 }
