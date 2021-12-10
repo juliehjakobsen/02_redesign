@@ -10,7 +10,6 @@ form {
 
 .form_felt {
   display: grid;
-  gap: 2px;
 }
 
 label,
