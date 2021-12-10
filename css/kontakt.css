@@ -1,0 +1,35 @@
+/* css til kontakt-formene */
+
+form {
+  padding-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: grid;
+  gap: 1rem;
+}
+
+.form_felt {
+  display: grid;
+  gap: 2px;
+}
+
+label,
+textarea,
+input,
+button {
+  display: block;
+}
+
+#first_section .col_1 {
+  background: white;
+}
+
+.top .element_1 a,
+.middle .element_1 a,
+.middle .element_2 a {
+  color: black;
+}
+
+.middle .element_1 .middle img {
+  border-radius: 50%;
+}
