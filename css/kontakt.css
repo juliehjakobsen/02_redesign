@@ -77,8 +77,7 @@ h1 {
   }
 }
 
-.col_2,
-.middle {
+.col_2 .middle {
   gap: 3rem;
 }
 
