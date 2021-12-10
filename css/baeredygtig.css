@@ -20,9 +20,13 @@
 #third_section .section_wrapper .col_2 .bottom {
   padding-top: 30px;
 }
-#first_section .section_wrapper .col_2 img {
-  width: 20%;
-  padding-left: 245px;
+.button {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+}
+button {
+  grid-column: 2/3;
 }
 
 @media (min-width: 700px) {
