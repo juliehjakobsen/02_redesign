@@ -77,6 +77,11 @@ button {
     grid-template-columns: 1fr 1fr;
   }
 
+  #first_section .col_2,
+  #first_section .col_1 {
+    padding: 30px;
+  }
+
   /* section 2 */
 
   #second_section .section_wrapper {
