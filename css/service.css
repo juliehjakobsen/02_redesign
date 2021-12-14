@@ -8,7 +8,14 @@
   margin-right: auto;
 
   padding-top: 30px;
+
+  gap: 30px;
 }
+.tekst{
+  padding-block: 30px;
+  padding-right: 30px;
+}
+
 
 #first_section .section_wrapper {
   min-width: 100%;
@@ -28,7 +35,8 @@
     justify-content: space-between;
     gap: 5px;
   }
-}
+
+
 /* #second_section {
   display: grid;
 } */
