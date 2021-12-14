@@ -27,6 +27,10 @@
 }
 button {
   grid-column: 2/3;
+  font-size: 1.07rem;
+}
+p {
+  line-height: 1.7rem;
 }
 
 @media (min-width: 700px) {
@@ -66,5 +70,8 @@ button {
   #third_section .col_1 {
     padding-right: 30px;
     padding-left: 30px;
+  }
+  #first_section button {
+    font-size: 1.07rem;
   }
 }
