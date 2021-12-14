@@ -1,6 +1,6 @@
 .bottom {
   background-color: blanchedalmond;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   padding: 20px;
   margin: 30px;
   font: 1rem;
@@ -9,19 +9,16 @@
 }
 #first_section button {
   font-size: 1rem;
+  color: #5d2b0f;
+  background-color: #d3ad89;
 }
-
-/* .bottom .right {
-  grid-column: 2/3;
-} */
 
 @media (min-width: 700px) {
   #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  #first_section .section_wrapper .col_2 {
-  }
+
   #first_section .section_wrapper .col_2 .middel {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -37,7 +34,7 @@
   }
   .bottom {
     background-color: blanchedalmond;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     padding: 20px;
     margin: 30px;
     font: 1rem;
@@ -46,5 +43,7 @@
   }
   #first_section button {
     font-size: 1rem;
+    color: #5d2b0f;
+    background-color: #d3ad89;
   }
 }
