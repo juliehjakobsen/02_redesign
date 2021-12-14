@@ -5,7 +5,6 @@ p {
 
 #first_section {
   background-color: blanchedalmond;
-  border-radius: 15px;
 }
 
 .button {
@@ -16,17 +15,16 @@ p {
 button {
   grid-column: 2/3;
 }
-
+/* 
 #first_section img,
 #second_section img,
 #third_section img {
   border-radius: 15px;
-}
+} */
 
 #third_section .section_wrapper {
   gap: 10px;
   background-color: #e6ceb2;
-  border-radius: 15px;
 }
 
 .section_wrapper {
