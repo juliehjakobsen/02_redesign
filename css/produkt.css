@@ -1,17 +1,26 @@
 .bottom {
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 30px;
+  font: 1rem;
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+}
+#first_section button {
+  font-size: 1rem;
 }
 
-.bottom .right {
+/* .bottom .right {
   grid-column: 2/3;
-}
+} */
 
 @media (min-width: 700px) {
   #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  #first_section .section_wrapper .col_2 {
   }
   #first_section .section_wrapper .col_2 .middel {
     display: grid;
@@ -21,5 +30,21 @@
   #first_section .section_wrapper .col_2 img {
     grid-column: 2/3;
     width: 300px;
+  }
+  #first_section .køb {
+    display: flex;
+    justify-content: end;
+  }
+  .bottom {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+    font: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  #first_section button {
+    font-size: 1rem;
   }
 }
