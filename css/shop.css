@@ -15,16 +15,14 @@ p {
 button {
   grid-column: 2/3;
 }
-/* 
-#first_section img,
-#second_section img,
-#third_section img {
-  border-radius: 15px;
-} */
 
 #third_section .section_wrapper {
   gap: 10px;
   background-color: #e6ceb2;
+}
+
+#third_section {
+  padding-top: 50px;
 }
 
 .section_wrapper {
@@ -107,5 +105,13 @@ button {
 
   #third_section {
     font-size: 1.5rem;
+  }
+
+  #third_section .col_1 {
+    padding: 30px;
+  }
+
+  #third_section .col_2 .bottom {
+    padding-bottom: 30px;
   }
 }
