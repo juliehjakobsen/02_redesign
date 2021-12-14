@@ -1,4 +1,4 @@
-img {
+.elements img {
   display: block;
 
   width: auto;
@@ -16,6 +16,19 @@ img {
   justify-content: center;
 }
 
+@media (min-width: 700px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  #second_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+}
 /* #second_section {
   display: grid;
 } */

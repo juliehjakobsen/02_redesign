@@ -25,7 +25,7 @@ h5 {
 }
 
 p,
-.form_felt {
+form_felt {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
 }
@@ -56,6 +56,7 @@ header {
   padding: 1rem 1rem;
   gap: 20px;
   background-color: #d3ae8a;
+  flex-wrap: wrap;
 }
 
 li {
