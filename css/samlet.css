@@ -1,5 +1,11 @@
 /* generelt for siden */
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -56,6 +62,11 @@ header {
   padding: 1rem 1rem;
   gap: 20px;
   background-color: #d3ae8a;
+  flex-wrap: wrap;
+}
+
+header a {
+  font-size: 1.2rem;
 }
 
 li {

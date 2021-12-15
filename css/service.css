@@ -1,4 +1,4 @@
-img {
+.elements img {
   display: block;
 
   width: auto;
@@ -8,13 +8,34 @@ img {
   margin-right: auto;
 
   padding-top: 30px;
+
+  gap: 30px;
 }
+.tekst{
+  padding-block: 30px;
+  padding-right: 30px;
+}
+
 
 #first_section .section_wrapper {
   min-width: 100%;
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 700px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  #second_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
 
 /* #second_section {
   display: grid;
