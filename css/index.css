@@ -4,6 +4,15 @@
   padding: 0;
   text-decoration: none;
 }
+main {
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  padding-top: 1rem;
+  text-align: center;
+}
 
 .index_fullscreen {
   width: 100%;
@@ -34,56 +43,133 @@
 
 .index_knap_1 {
   border: solid 2px white;
-  border-radius: 1.1rem;
+  border-radius: 5px;
   padding: 5px;
 }
 
 .index_knap_2 {
   border: solid 2px white;
-  border-radius: 1.1rem;
+  border-radius: 5px;
   padding: 5px;
 }
 
-/* CSS 
-.button-81 {
-  background-color: #fff;
-  border: 0 solid #e2e8f0;
-  border-radius: 1.5rem;
-  box-sizing: border-box;
-  color: #0d172a;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1;
-  padding: 1rem 1.6rem;
+#index_wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+section {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+section img {
+  max-width: 500px;
+}
+
+section p {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+#index_section_2 {
+  background-color: #d3ae8a;
+}
+
+#index_section_4 {
+  background-color: #d3ae8a;
+}
+
+.btn {
+  border: #804826 solid 2px;
+  background-color: #804826;
+  border-radius: 5px;
+  padding: 5px;
+  width: 6rem;
   text-align: center;
-  text-decoration: none #0d172a solid;
-  text-decoration-thickness: auto;
-  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
-.button-81:hover {
-  background-color: #1e293b;
-  color: #fff;
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .button-81 {
-    font-size: 1.125rem;
-    padding: 1rem 2rem;
+.is1_col_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.is2_col_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.is3_col_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.is4_col_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.is5_col_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (max-width: 907px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+  }
+
+  section img {
+    max-width: 300px;
   }
 }
-*/
 
-/* Changes to consider 
-1. centrer logo i header
-2. 
-*/
+footer {
+  background-color: #d3ae8a;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-decoration: underline;
+}
+
+footer img {
+  padding-top: 10px;
+  max-width: 128px;
+}
+
+/* #index_section_1 { display: flex; gap: 30px; background-color: brown; padding: 30px; } #index_section_2 { display: flex; gap: 30px; padding: 30px; } #index_section_3 { display: flex; gap: 30px; background-color: brown; padding: 30px; } #index_section_4 { display: flex; gap: 30px; padding: 30px; } #index_section_5 { display: flex; gap: 30px; background-color: brown; padding: 30px; } */ /* #index_wrapper { font-size: 1.2rem; background-color: #ede7df; padding: 30px; padding-top: 10px; } */ /* #index_section_1 { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 2rem; gap: 2rem; font-size: 1.2rem; } .is1_col_right { grid-column: 2/4; } #index_section_2 { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 2rem; gap: 1rem; font-size: 1.2rem; } .is2_col_left { grid-column: 1/3; } #index_section_3 { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 2rem; gap: 1rem; font-size: 1.2rem; } .is3_col_right { grid-column: 2/4; } #index_section_4 { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 2rem; gap: 1rem; font-size: 1.2rem; } .is4_col_left { grid-column: 1/3; } #index_section_5 { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 2rem; gap: 1rem; font-size: 1,
+  2rem; } .is5_col_right { grid-column: 2/4; } */ /* CSS .button-81 { background-color: #fff; border: 0 solid #e2e8f0; border-radius: 1.5rem; box-sizing: border-box; color: #0d172a; cursor: pointer; display: inline-block; font-family: "Basier circle",
+  -apple-system,
+  system-ui,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  "Noto Sans",
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji"; font-size: 1.1rem; font-weight: 600; line-height: 1; padding: 1rem 1.6rem; text-align: center; text-decoration: none #0d172a solid; text-decoration-thickness: auto; transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1) ; box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25) ; user-select: none; -webkit-user-select: none; touch-action: manipulation; } .button-81:hover { background-color: #1e293b; color: #fff; } @media (min-width: 768px) { .button-81 { font-size: 1.125rem; padding: 1rem 2rem; } } */ /* Changes to consider 1. centrer logo i header 2. */ ;
