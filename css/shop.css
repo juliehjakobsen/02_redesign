@@ -111,6 +111,10 @@ button {
     padding: 30px;
   }
 
+  #third_section .col_2 .top {
+    padding-top: 30px;
+  }
+
   #third_section .col_2 .bottom {
     padding-bottom: 30px;
   }
