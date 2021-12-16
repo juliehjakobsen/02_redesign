@@ -11,11 +11,10 @@
 
   gap: 30px;
 }
-.tekst{
+.tekst {
   padding-block: 30px;
   padding-right: 30px;
 }
-
 
 #first_section .section_wrapper {
   min-width: 100%;
@@ -36,12 +35,11 @@
     gap: 5px;
   }
 
-
-/* #second_section {
+  /* #second_section {
   display: grid;
 } */
 
-/* .element_1 {
+  /* .element_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
@@ -49,3 +47,4 @@
   width: 100%;
   padding-top: 30px;
 } */
+}
