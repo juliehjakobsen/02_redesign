@@ -81,6 +81,7 @@ li {
   height: 3rem;
 }
 
+/*
 #footer .section_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -91,6 +92,26 @@ li {
 #footer .section_wrapper .col_2 {
   grid-column: 2/3;
   padding-left: 41px;
+}
+*/
+
+footer {
+  background-color: #d3ae8a;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-decoration: underline;
+}
+
+footer img {
+  padding-top: 10px;
+  max-width: 128px;
 }
 
 button {
